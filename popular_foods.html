@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popular Foods</title>
+    <link rel="stylesheet" href="popular_foods.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="list_item">
+        <p class="intro-text">
+          <span class="bullet">■</span> Crispy, Every Bite Taste
+        </p>
+      </div>
+      <h1 class="section-title">Popular Food Items</h1>
+      <div class="carousel-container">
+        <button class="carousel-button left" onclick="scrollLeft()">
+          &#9664;
+        </button>
+        <div class="food-items">
+          <div class="food-item">
+            <img
+              src="img/clsk_burger.png"
+              alt="Vegetables Burger"
+              class="food-image"
+            />
+            <h3 class="food-title">Vegetables Burger</h3>
+            <p class="food-description">Barbecue Italian cuisine pizza</p>
+          </div>
+          <div class="food-item">
+            <img src="img/pizza1.jpg" alt="Special Pizza" class="food-image" />
+            <h3 class="food-title">Special Pizza</h3>
+            <p class="food-description">Barbecue Italian cuisine pizza</p>
+          </div>
+          <div class="food-item">
+            <img
+              src="img/fries.png"
+              alt="Special French Fries"
+              class="food-image"
+            />
+            <h3 class="food-title">Special French Fries</h3>
+            <p class="food-description">Barbecue Italian cuisine fries</p>
+          </div>
+          <div class="food-item">
+            <img
+              src="img/shirmp.png"
+              alt="Cuisine Chicken"
+              class="food-image"
+            />
+            <h3 class="food-title">Cuisine Chicken</h3>
+            <p class="food-description">Japanese Cuisine Chicken</p>
+          </div>
+          <!-- Add more items here if needed -->
+        </div>
+        <button class="carousel-button right" onclick="scrollRight()">
+          &#9654;
+        </button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+body{
+    background: #FBF7F2;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-container {
+    width: 80%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.list_item .intro-text {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.bullet {
+    color: red;
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.food-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.food-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.food-item:hover {
+    transform: scale(1.05);
+}
+/* Line 173 */
+
+width: 57px;
+height: 0px;
+
+/* Red */
+border: 4px solid #BD1F17;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+.food-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.food-title {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.food-description {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.carousel-button {
+    background-color: #333;
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: background-color 0.3s;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-button:hover {
+    background-color: #555;
+}
+
+.carousel-button.left {
+    left: -25px;
+}
+
+.carousel-button.right {
+    right: -25px;
+}
